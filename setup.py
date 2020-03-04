@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='webserver',
-    version='1.0.0',
-    packages=find_packages(),
+    version='1.0.1',
+    packages=['webserver'],
     url='www.example.com',
     license='',
     author='dmitry',
