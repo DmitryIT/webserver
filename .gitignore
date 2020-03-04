@@ -2,3 +2,4 @@
 /venv
 /dist
 /build
+/webserver.egg-info/
