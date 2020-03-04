@@ -20,3 +20,4 @@ def run(server_class=HTTPServer, handler_class=MyHTTPRequestHandler):
     except KeyboardInterrupt:
         httpd.server_close()
         print('Server is closed')
+
