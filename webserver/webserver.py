@@ -1,6 +1,6 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-from response import get_response
+from webserver.response import get_response
 
 
 class MyHTTPRequestHandler(BaseHTTPRequestHandler):
