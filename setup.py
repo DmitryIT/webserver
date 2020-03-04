@@ -4,7 +4,6 @@ setup(
     name='webserver',
     version='1.0.0',
     packages=find_packages(),
-    scripts = ['webserver.py', 'response.py'],
     url='www.example.com',
     license='',
     author='dmitry',
