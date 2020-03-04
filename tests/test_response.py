@@ -1,7 +1,7 @@
 import unittest
 from unittest import TestCase
 
-from response import get_response
+from webserver.response import get_response
 
 
 class Test(TestCase):
