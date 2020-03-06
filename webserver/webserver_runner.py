@@ -1,3 +1,8 @@
+"""
+Basic webserver that returns a text string on the port 8000
+Can be closed by Ctrl+C
+"""
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 from webserver.response import get_response
